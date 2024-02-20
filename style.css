@@ -1,0 +1,132 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+/**********  MOBILE FIRST - trying to, at least **********/
+
+header,
+footer {
+    /* kan dessa två va motstridiga?  vilket väljss då? */
+    min-height: 100px;
+    max-height: 20vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5em 5%;
+}
+
+/********** HEADER styling **********/
+
+header {
+    position: sticky;
+    top: 0;
+    background-color: white;
+    /* z-index: 1; */
+}
+
+.magda_en {
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
+    font-size: 1.1rem;
+}
+
+.magda_en span {
+    font-size: 0.8rem;
+    font-weight: 300;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.menu {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    list-style-type: none;
+    overflow: hidden;
+    transition: all .5s;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 100%;
+    background-color: rgba(255, 255, 255, 0.6);
+    padding-top: 0;
+    padding-right: 2rem;
+}
+
+.menu-item a {
+    text-decoration: none;
+    font-size: 0.9rem;
+    color: black;
+    font-weight: 500;
+    /* font-family: "Noto Sans", sans-serif;
+     */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 1em 0.5em;
+}
+
+.active {
+    text-decoration: underline;
+
+}
+
+#nav-toggle {
+    display: none;
+}
+
+#nav-icon {
+    display: block;
+    position: relative;
+    font-size: 1.5rem;
+    z-index: 2;
+}
+
+#nav-toggle:checked~.menu {
+    /* background-color: rgba(0, 0, 0, 0.5); */
+    padding-top: 6em;
+    bottom: 0;
+    overflow: visible;
+}
+
+/********** MAIN - PICTURE styling **********/
+.pic-me {
+    /* position: relative; */
+
+    width: 100vw;
+
+}
+
+
+
+@media (min-width:900px) {
+
+    .magda_en {
+        padding: 1rem 0.5rem;
+        font-size: 1.5rem;
+    }
+
+    .magda_en span {
+        font-size: 1rem;
+    }
+
+    #nav-icon {
+        display: none;
+    }
+
+    .menu {
+        flex-direction: row;
+        overflow: visible;
+        position: relative;
+        background-color: white;
+    }
+
+    .menu-item a {
+        font-size: 1rem;
+        font-weight: 200;
+
+    }
+}
