@@ -25,7 +25,7 @@ header {
     position: sticky;
     top: 0;
     background-color: white;
-    /* z-index: 1; */
+    z-index: 1;
 }
 
 .magda_en {
@@ -137,6 +137,7 @@ main {
     width: 100%;
     height: auto;
     display: flex;
+    justify-content: space-between;
     flex-wrap: wrap;
     margin-top: 10px;
     /* justify-content: center; */
@@ -147,35 +148,63 @@ main {
 }
 
 .card {
-    width: 50%;
-    height: 25vh;
+    width: 49%;
+    height: 40vh;
+    /* margin-top: 5%; */
+    margin-bottom: 10px;
+    margin-top: 10px;
     /* max-width: 300px;
     max-height: 200px; */
     display: flex;
-    /* flex-direction: column; */
-    justify-content: center;
-    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    /* align-items: center; */
     box-sizing: border-box;
     overflow: auto;
     border: 3px solid black;
 }
 
-.card h3 {
-    height: 20%;
+.card a {
     text-decoration: none;
-    font-size: 0.9rem;
+    font-size: 1.2rem;
     color: black;
-    font-weight: 500;
+    font-weight: 300;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    padding: 5%;
+    position: relative;
+}
+
+.card h3 {
+    color: rgba(0, 0, 0, 0.8);
+    /* position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 100%; */
+    height: 10%;
+    padding-left: 20%;
+}
+
+.card figure {
+    width: auto;
+    height: 90%;
 }
 
 .card img {
-    height: 100px;
-    width: auto;
-    border-radius: 50%;
+    border-radius: 10% / 50%;
+    align-self: center;
+    width: 60%;
+    height: 75%;
+    margin: 5% 20%;
+
 }
 
 .card figcaption {
-    height: 30%;
+    position: absolute;
+    bottom: 5%;
+    left: 20%;
+    /* width: 100%; */
 }
 
 .card:hover {
