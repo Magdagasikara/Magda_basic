@@ -6,12 +6,13 @@ Magda, me and I
 
 
 ☑️ **Navigation**
-- [ ]  Din webbplats ska bestå av minst fem (5) olika sidor som besökaren kan navigera mellan
+- [ x]  Din webbplats ska bestå av minst fem (5) olika sidor som besökaren kan navigera mellan
 - [ x]  Du ska ha en meny där användaren kan ta sig runt till alla olika undersidor
 - [ x]  Det ska från alla dina sidor gå att komma åt alla andra sidor och det ska vara en konsekvent meny (dvs inte olika menyer/navigation) på de olika sidorna
 - [ x]  I menyn ska det synas vilken sida man som besökare är på
 - EN/SV hur ska den visas i drop down? kanske bara det andra språkets namn
 - när man hovrar över menyn ska andra alternativ inte ändra plats
+- backup font på alla sidor
 
 ☑️ **Innehåll**
 - [ ]  Alla sidorna på webbplatsen ska ha innehåll
