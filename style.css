@@ -2,6 +2,9 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    font-family: "Noto Sans", sans-serif;
+
+    /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
 }
 
 
@@ -28,7 +31,7 @@ header {
 
 .magda_en {
     font-weight: bolder;
-    font-size: 1.1rem;
+    font-size: 1.3rem;
 }
 
 .magda_en a {
@@ -37,8 +40,8 @@ header {
 }
 
 .magda_en span {
-    font-size: 0.8rem;
-    font-weight: 300;
+    font-size: 1rem;
+    font-weight: 400;
     color: rgba(0, 0, 0, 0.5);
 }
 
@@ -63,12 +66,9 @@ header {
 
 .menu-item a {
     text-decoration: none;
-    font-size: 0.9rem;
+    font-size: 1rem;
     color: black;
     font-weight: 500;
-    /* font-family: "Noto Sans", sans-serif;
-     */
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
     padding: 1em 0.5em;
     transition: transform 0.3s, font-weight 0.3s;
 }
@@ -110,7 +110,7 @@ header {
     overflow: visible;
 }
 
-/********** MAIN - PICTURE styling **********/
+/********** MAIN styling **********/
 
 main {
     display: flex;
@@ -119,14 +119,14 @@ main {
     padding: 0.5em 5%;
 }
 
-.pic-me {
+.pic-intro {
     width: 100%;
     height: 100%;
     overflow: hidden;
     margin-bottom: 20px;
 }
 
-.pic-me img {
+.pic-intro img {
     width: 100%;
     height: auto;
 }
@@ -145,9 +145,7 @@ main {
 }
 
 .card {
-    width: 80%;
-    height: auto;
-    /* max-height: 35vh; */
+    max-height: 35vh;
     margin-bottom: 10px;
     margin-top: 10px;
     /* max-width: 300px;
@@ -174,33 +172,41 @@ main {
 
 .card h3 {
     color: rgba(0, 0, 0, 0.8);
+    font-weight: 500;
     height: 10%;
     left: 0;
-    width: 100%;
+    width: auto;
+    text-align: center;
+}
+
+.site-welcome {
     text-align: center;
 }
 
 .card figure {
-    position: relative;
-    width: auto;
+    /* position: relative; */
     height: 90%;
+    width: auto;
 }
 
-.card img {
+.card figure img {
+    /* position: relative; */
     border-radius: 10% / 20%;
     align-self: center;
     width: 60%;
     max-width: 300px;
-    height: 75%;
-    max-height: 200px;
+    /* height: 75%;
+    max-height: 200px; */
+    height: auto;
     margin: 5% 20%;
 }
 
-.card figcaption {
-    position: relative;
-    /* bottom: 5%; */
+.card figure figcaption {
+    /* position: relative; */
+    bottom: 5%;
+    top: 5%;
     left: 0;
-    width: 100%;
+    /* width: 100%; */
     text-align: center;
     font-size: 1rem;
 }
@@ -212,16 +218,20 @@ main {
 
 }
 
-@media (min-width:750px) {
+@media (min-width:850PX) {
 
     .card-container {
-        justify-content: space-between;
+        justify-content: space-around;
     }
 
-    .card {
-        width: 49%;
-        height: 35vh;
+    .card a {
+        font-size: 1.1rem;
     }
+
+    .menu {
+        padding-right: 0;
+    }
+
 }
 
 @media (min-width:950px) {
@@ -232,7 +242,7 @@ main {
     }
 
     .magda_en span {
-        font-size: 1rem;
+        font-size: 1.1rem;
     }
 
     #nav-icon {
@@ -247,13 +257,8 @@ main {
     }
 
     .menu-item a {
-        font-size: 1rem;
-        font-weight: 200;
-    }
-
-    .card {
-        width: 49%;
-        height: 35vh;
+        font-size: 1.1rem;
+        /* font-weight: 400; */
     }
 
     .portfolio {
