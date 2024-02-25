@@ -13,28 +13,30 @@ Magda, me and I
 - EN/SV hur ska den visas i drop down? kanske bara det andra språkets namn
 - när man hovrar över menyn ska andra alternativ inte ändra plats
 - backup font på alla sidor
+- dubbelkolla om CV och CONTACT beter sig som resten i menyn
 
 ☑️ **Innehåll**
 - [ ]  Alla sidorna på webbplatsen ska ha innehåll
 - [ ]  Innehåll som måste finnas någonstans på webbplatsen är:
     - [ ]  En presentation av dig själv
     - [ ]  Ditt CV med utbildningar, arbetsplatser m.m. (precis som ett vanligt CV)
-    - [ ]  En portfolio med projekt du gjort (du kan som minst lägga in dina skolprojekt men du kan även lägga till andra projekt)
-- [ ]  Det ska finnas minst en bild på sidan, gärna fler.
-- [ ]  Resterande sidor kan innehålla bara Lorem Ipsum-text eller så hittar du på något värdefullt så som kontaktuppgifter eller något annat som passar in på sidan.
+    - [ x]  En portfolio med projekt du gjort (du kan som minst lägga in dina skolprojekt men du kan även lägga till andra projekt)
+- [ x]  Det ska finnas minst en bild på sidan, gärna fler.
+- [ x]  Resterande sidor kan innehålla bara Lorem Ipsum-text eller så hittar du på något värdefullt så som kontaktuppgifter eller något annat som passar in på sidan.
 
 ☑️ **Portfolio**
 - [ ]  Din portfolio ska vara en lista av projekt med en rubrik och en bild samt en knapp besökaren kan klicka på för att få mer information.
-- [ ]  När knappen för mer information klickas på ska det dyka upp en modal-popup med lite mer information om projektet. Denna ska inte kräva **JavaScript** utan enbart byggas med **HTML** & **CSS**.
+- [ x]  När knappen för mer information klickas på ska det dyka upp en modal-popup med lite mer information om projektet. Denna ska inte kräva **JavaScript** utan enbart byggas med **HTML** & **CSS**.
+- snygga till popups
 
 ☑️ **Layout**
-- [ ]  Din sida ska i några delar av innehållet (eller allt innehåll) ha två eller fler kolumner.
-- [ ]  Din sida ska ha ett eller flera typsnitt som laddas in från en typsnittsfil eller från exempelvis Google Fonts.
-- [ ]  Sidan ska vara någorlunda anpassad för olika skärmstorlekar så det går att ta del av innehållet utan större problem både i en mobil och på en dator.
+- [ x]  Din sida ska i några delar av innehållet (eller allt innehåll) ha två eller fler kolumner.
+- [ x]  Din sida ska ha ett eller flera typsnitt som laddas in från en typsnittsfil eller från exempelvis Google Fonts.
+- [ x]  Sidan ska vara någorlunda anpassad för olika skärmstorlekar så det går att ta del av innehållet utan större problem både i en mobil och på en dator.
 
 ☑️ **Tekniska krav**
-- [ ]  Din webbplats ska vara kompatibel med moderna webbläsare och fungera rimligt bra i alla webbläsare som inte är äldre än tre år.
-- [ ]  Din **HTML**-kod ska vara någorlunda korrekt när det kommer till semantik (ex. ingen layout genom tabeller eller ologiska rubriknivåer).
+- [ x]  Din webbplats ska vara kompatibel med moderna webbläsare och fungera rimligt bra i alla webbläsare som inte är äldre än tre år.
+- [ x]  Din **HTML**-kod ska vara någorlunda korrekt när det kommer till semantik (ex. ingen layout genom tabeller eller ologiska rubriknivåer).
 
 ☑️ **Påskägg**  Denna del ska byggas med Vanilla JavaScript**
 - [ ]  Du ska skapa **två påskägg** (Easter eggs) på din webbplats som besökaren ska kunna hitta

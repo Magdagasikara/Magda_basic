@@ -11,17 +11,21 @@
 
 /**********  MOBILE FIRST - trying to, at least **********/
 
-header,
+/* header,
 footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 0.5em 5%;
-}
+} */
 
 /********** HEADER styling **********/
 
 header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5em 5%;
     height: 20vh;
     position: sticky;
     top: 0;
@@ -238,18 +242,14 @@ main {
 }
 
 .card-portfolio-popup {
-    background-color: rgb(119, 136, 153);
+    background-color: rgb(223, 226, 228);
     padding: 5%;
-    width: 50%;
+    width: 75%;
     border: 1px solid #888;
-
     display: none;
-    position: absolute;
+    position: fixed;
     top: 50%;
-    /* left: 0; */
     z-index: 1;
-    /* width: 100%;
-    height: 100%; */
 }
 
 :target {
@@ -289,6 +289,10 @@ main {
 /********** FOOTER styling **********/
 
 footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5em 5%;
     height: 10vh;
 }
 
@@ -318,6 +322,10 @@ footer a:hover {
 
     .card a {
         font-size: 1.1rem;
+    }
+
+    .card-portfolio-popup {
+        width: 50%;
     }
 
 
