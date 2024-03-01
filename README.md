@@ -2,7 +2,8 @@
 Magda, me and I
 
 
-
+- i liggande mobiler: cards behöver mycket mer height
+- stående mobil: cv-gview ska ha hälften så mycket height!!!
 
 
 ☑️ **Navigation**
@@ -40,6 +41,6 @@ Magda, me and I
 
 ☑️ **Påskägg**  Denna del ska byggas med Vanilla JavaScript**
 - [x ]  Du ska skapa **två påskägg** (Easter eggs) på din webbplats som besökaren ska kunna hitta
-- [x ]  **Ditt ena påskägg** ska aktiveras av att användaren klickar på någon “udda” del av webbplatsen som man vanligtvis inte brukar klicka på. När denna del klickas på ska webbplatsens bakgrund bytas ut.
-- [xish ]  **Ditt andra påskägg** ska aktiveras när användaren skriver in en kombination på tangentbordet, exempelvis “1337”. När användaren skrivit in kombinationen på tangentbordet ska det komma upp något roligt meddelande i en modal-popup.
+- [x - tryck på rubriken på beachsidan]  **Ditt ena påskägg** ska aktiveras av att användaren klickar på någon “udda” del av webbplatsen som man vanligtvis inte brukar klicka på. När denna del klickas på ska webbplatsens bakgrund bytas ut.
+- [xish - skriv "magda" eller "mada" ]  **Ditt andra påskägg** ska aktiveras när användaren skriver in en kombination på tangentbordet, exempelvis “1337”. När användaren skrivit in kombinationen på tangentbordet ska det komma upp något roligt meddelande i en modal-popup.
 (ny sida inte ett meddelande i popup)
