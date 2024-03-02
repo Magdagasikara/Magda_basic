@@ -2,8 +2,6 @@
 Magda, me and I
 
 
-- i liggande mobiler: cards behöver mycket mer height
-- stående mobil: cv-gview ska ha hälften så mycket height!!!
 
 
 ☑️ **Navigation**
@@ -34,6 +32,8 @@ Magda, me and I
 - [ x]  Din sida ska i några delar av innehållet (eller allt innehåll) ha två eller fler kolumner.
 - [ x]  Din sida ska ha ett eller flera typsnitt som laddas in från en typsnittsfil eller från exempelvis Google Fonts.
 - [ x]  Sidan ska vara någorlunda anpassad för olika skärmstorlekar så det går att ta del av innehållet utan större problem både i en mobil och på en dator.
+-OK! i liggande mobiler: cards behöver mycket mer height
+- stående mobil: cv-gview ska ha hälften så mycket height!!!
 
 ☑️ **Tekniska krav**
 - [ x]  Din webbplats ska vara kompatibel med moderna webbläsare och fungera rimligt bra i alla webbläsare som inte är äldre än tre år.

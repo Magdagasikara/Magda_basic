@@ -87,6 +87,10 @@ header {
     padding-left: 0.5em;
 }
 
+.contact p {
+    display: inline;
+}
+
 .active {
     text-decoration: underline;
 }
@@ -151,6 +155,7 @@ main {
     flex-wrap: wrap;
     margin-top: 10px;
     justify-content: center;
+    align-items: flex-start;
     box-sizing: border-box;
     overflow: hidden;
     border-top: 1px solid rgba(0, 0, 0, 0.2);
@@ -167,7 +172,7 @@ main {
     /* display: flex; */
     flex-direction: column;
     justify-content: space-between;
-    align-self: center;
+    /* align-self: center; */
     box-sizing: border-box;
     overflow: hidden;
     border-bottom: 1px solid #f5f9f9;
@@ -298,7 +303,7 @@ main {
 } */
 .section-cv {
     width: 80%;
-    height: 600px;
+    height: 100vw;
 }
 
 .cv-view {
@@ -356,6 +361,10 @@ footer a:hover {
 
     .card-portfolio-popup {
         width: 50%;
+    }
+
+    .section-cv {
+        height: 600px;
     }
 }
 
